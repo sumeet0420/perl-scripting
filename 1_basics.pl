@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# PERL Basics
+# PERL Basics. Declaring Variables
 # These are comments. Comments begin with #
 print 7;
 print 'This is a sentence.\n';
