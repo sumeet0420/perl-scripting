@@ -46,3 +46,8 @@ print "$numbers[$_]"
 while (($index, $num)= each @numbers){
 print "\n$index $num";
 }
+print "******************\n";
+print "List of list\n";
+@list_of_lists = ((3,4),(10,34,90));
+$count = @list_of_lists;
+print "@list_of_lists with size $count\n ";
