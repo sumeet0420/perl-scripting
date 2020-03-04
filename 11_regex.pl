@@ -24,7 +24,7 @@ print "$count matches found...\n";
 my $url='https://www.google.com';
 
 if($url =~ m<https://www.google.com>){
-print "URL matches...";
+print "URL matches...\n";
 }
 
 $_ = "one two three";
@@ -32,9 +32,13 @@ $_ = "one two three";
 if(/\s\w+\s/){
 print "Before match:($`)\nMatch:($&)\nAfter match: ($')\n";
 }
-
+print "***************\n";
 $_="wewe";
-my $count_we=0;
-if(/(we){2}/){
-print "wewe found....."
-}
+my $count = tr/(we)//;
+print "Count of we: $count....\n";
+print;
+print "***************\n";
+print "Changing ....\n";
+$_="wewe";
+$_ =~s/(.*)/\U$1/;
+print;
