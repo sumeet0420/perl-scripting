@@ -5,9 +5,11 @@
 #Push and pop...push values onto, pop values off of the end (highest index value) of the array
 # Shift and unshift - Push values onto and pop values off of the beginning
 # Lisr have scalar context by returning its size...
-($mom,$dad,$son) = ("Bill","Sarah","Johnny");
+($mom,$dad,$son) = ("Sarah","Bill","Johnny");
 print "$mom, $dad";
 @family=qw(Bill Sarah Johnny);
+($mom2,$dad2,$son2) = @family;
+print "\nmom2 $mom2";
 print "\n@family[0]";
 @numbers = (1,2,3,4,5);
 @numbers2 = qw(1 2 3 4 5);

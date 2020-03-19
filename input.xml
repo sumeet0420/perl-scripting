@@ -1,0 +1,30 @@
+<notes>
+<note>
+  <date>2015-09-01</date>
+  <hour>08:30</hour>
+  <to>Tove</to>
+  <from>Jani</from>
+  <body>Don't forget me this weekend!</body>
+</note>
+<note>
+  <date>2018-11-01</date>
+  <hour>05:30</hour>
+  <to>Sumeet</to>
+  <from>Jani</from>
+  <body>Don't forget me enjoy!</body>
+</note>
+<albums>
+<album>
+<name>KK Songs</name>
+</album>
+</albums>
+<opt>
+  <person firstname="Joe" lastname="Smith">
+    <email>joe@smith.com</email>
+    <email>jsmith@yahoo.com</email>
+  </person>
+  <person firstname="Bob" lastname="Smith">
+    <email>bob@smith.com</email>
+  </person>
+</opt>
+</notes>
